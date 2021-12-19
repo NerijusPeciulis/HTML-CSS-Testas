@@ -45,8 +45,8 @@
             justify-content: space-between;
   }
   img {
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 8.5rem;
+    height: 8.5rem;
     border-radius: 50%;
     margin: 15px 5px;
   }
@@ -100,7 +100,6 @@
   }
   header {
     background-color: #310a31;
-    text-align: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -145,53 +144,72 @@
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+    z-index: 1;
   }
   section img {
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 9.5rem;
+    height: 9.5rem;
     border-radius: 50%;
-    margin: 15px 5px;
   }
   article {
     text-align: center;
-    border-bottom: 30px solid #3a1772;
-    padding: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    width: 800px;
+    margin: 0 auto;
   }
   article p {
-    display: inline-block;
     margin: 0px;
-    text-align: center;
-  }
-  article img {
-    width: 6.5rem;
-    height: 6.5rem;
-    border-radius: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
   article h2 {
     color: #3a1772;
     margin-top: 0px;
-    margin-bottom: 8px;
-    display: inline-block;
   }
   article h3 {
     color: #3a1772;
     margin-top: 0px;
     margin-bottom: 8px;
   }
-  footer {
-    background-color: #310a31;
-    height: 100%;
+  article .contacts {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 30px 130px;
+  }
+  article .contacts .elsa,
+  article .contacts .michail {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  article .contacts img {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+  }
+  article .contacts p {
+    padding: 0px 10px;
+  }
+  footer {
+    background-color: #310a31;
+    border-top: 30px solid #3a1772;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 0px 150px;
   }
   footer h4 {
     color: orange;
@@ -200,8 +218,8 @@
   }
   footer a {
     color: #d8ddef;
-    text-decoration: none;
     display: block;
+    text-decoration: none;
     text-align: center;
   }
   footer a:last-child {
